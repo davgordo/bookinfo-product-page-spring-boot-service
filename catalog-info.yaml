@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "product-page-spring-boot"
+  description: "Product Page Service"
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/backstage-admins"
+  system: system:default/bookinfo
+  providesApis: 
+    - product-page
